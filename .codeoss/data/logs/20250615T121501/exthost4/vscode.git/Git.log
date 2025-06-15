@@ -161,3 +161,62 @@ fatal: no email was given and auto-detection is disabled
 2025-06-15 13:35:26.929 [info] > git ls-files --stage -- adk_multiagent_systems/movie_pitches/The Mapmaker's Heresy [3ms]
 2025-06-15 13:35:26.942 [info] > git cat-file -s e7bb3a9beda63c228c6914a2fe6b76d44d778ada [4ms]
 2025-06-15 13:35:27.061 [info] > git show --textconv :adk_multiagent_systems/movie_pitches/The Mapmaker's Heresy [6ms]
+2025-06-15 13:35:36.368 [info] > git add -A -- . [98ms]
+2025-06-15 13:35:36.398 [info] > git -c user.useConfigOnly=true commit --quiet --allow-empty-message --file - [22ms]
+2025-06-15 13:35:36.409 [info] > git config --get commit.template [2ms]
+2025-06-15 13:35:36.428 [info] > git config --get commit.template [9ms]
+2025-06-15 13:35:36.430 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2025-06-15 13:35:36.457 [info] > git status -z -uall [19ms]
+2025-06-15 13:35:36.458 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [8ms]
+2025-06-15 13:35:36.490 [info] > git push [5ms]
+2025-06-15 13:35:36.490 [info] fatal: The current branch main has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream test main
+
+To have this happen automatically for branches without a tracking
+upstream, see 'push.autoSetupRemote' in 'git help config'.
+2025-06-15 13:35:36.517 [info] > git config --get commit.template [14ms]
+2025-06-15 13:35:36.520 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [5ms]
+2025-06-15 13:35:36.542 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [4ms]
+2025-06-15 13:35:36.545 [info] > git status -z -uall [17ms]
+2025-06-15 13:35:37.573 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z --shortstat --diff-merges=first-parent -n50 --skip=0 --topo-order --decorate=full --stdin [963ms]
+2025-06-15 13:35:37.806 [info] > git ls-files --stage -- adk_multiagent_systems/movie_pitches/The Mapmaker's Heresy [4ms]
+2025-06-15 13:35:37.816 [info] > git cat-file -s e7bb3a9beda63c228c6914a2fe6b76d44d778ada [3ms]
+2025-06-15 13:35:38.001 [info] > git show --textconv :adk_multiagent_systems/movie_pitches/The Mapmaker's Heresy [4ms]
+2025-06-15 13:35:47.599 [info] > git show --textconv HEAD:.codeoss/data/logs/20250615T121501/exthost4/vscode.git/Git.log [30ms]
+2025-06-15 13:35:47.613 [info] > git ls-tree -l HEAD -- .codeoss/data/logs/20250615T121501/exthost4/vscode.git/Git.log [28ms]
+2025-06-15 13:35:47.891 [info] > git blame --root --incremental a672dbf3788360c14bdca304f6d55813528a1a69 -- .codeoss/data/logs/20250615T121501/exthost4/vscode.git/Git.log [17ms]
+2025-06-15 13:35:48.122 [info] > git check-ignore -v -z --stdin [14ms]
+2025-06-15 13:35:50.651 [info] > git push -u test main [12407ms]
+2025-06-15 13:35:50.651 [info] remote: warning: See https://gh.io/lfs for more information.        
+remote: warning: File .cache/cloud-code/cloudcode_cli/cloudcode_cli/82761e7f/cloudcode_cli is 86.57 MB; this is larger than GitHub's recommended maximum file size of 50.00 MB        
+remote: warning: GH001: Large files detected. You may want to try Git Large File Storage - https://git-lfs.github.com.        
+To https://github.com/samedberkanUNVER/student_02_7b3398a78669.git
+ * [new branch]      main -> main
+2025-06-15 13:35:50.683 [info] > git show --textconv :adk_multiagent_systems/movie_pitches/The Mapmaker's Heresy [13ms]
+2025-06-15 13:35:50.684 [info] > git config --get commit.template [24ms]
+2025-06-15 13:35:50.692 [info] > git ls-files --stage -- adk_multiagent_systems/movie_pitches/The Mapmaker's Heresy [13ms]
+2025-06-15 13:35:50.702 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [11ms]
+2025-06-15 13:35:50.722 [info] > git status -z -uall [12ms]
+2025-06-15 13:35:50.724 [info] > git cat-file -s e7bb3a9beda63c228c6914a2fe6b76d44d778ada [23ms]
+2025-06-15 13:35:50.726 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [6ms]
+2025-06-15 13:35:50.747 [info] > git merge-base refs/heads/main refs/remotes/test/main [3ms]
+2025-06-15 13:35:50.758 [info] > git diff --name-status -z --diff-filter=ADMR a672dbf3788360c14bdca304f6d55813528a1a69...refs/remotes/test/main [3ms]
+2025-06-15 13:35:50.909 [info] > git config --get commit.template [19ms]
+2025-06-15 13:35:50.916 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [11ms]
+2025-06-15 13:35:50.952 [info] > git status -z -uall [24ms]
+2025-06-15 13:35:50.953 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [5ms]
+2025-06-15 13:35:51.507 [info] > git check-ignore -v -z --stdin [9ms]
+2025-06-15 13:35:52.312 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z --shortstat --diff-merges=first-parent -n50 --skip=0 --topo-order --decorate=full --stdin [1438ms]
+2025-06-15 13:36:03.981 [info] > git config --get commit.template [3ms]
+2025-06-15 13:36:03.992 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2025-06-15 13:36:04.014 [info] > git status -z -uall [13ms]
+2025-06-15 13:36:04.017 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [4ms]
+2025-06-15 13:36:04.092 [info] > git ls-files --stage -- adk_multiagent_systems/movie_pitches/The Mapmaker's Heresy [2ms]
+2025-06-15 13:36:04.104 [info] > git cat-file -s e7bb3a9beda63c228c6914a2fe6b76d44d778ada [4ms]
+2025-06-15 13:36:04.210 [info] > git show --textconv :adk_multiagent_systems/movie_pitches/The Mapmaker's Heresy [3ms]
+2025-06-15 13:36:09.049 [info] > git config --get commit.template [16ms]
+2025-06-15 13:36:09.051 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2025-06-15 13:36:09.072 [info] > git status -z -uall [12ms]
+2025-06-15 13:36:09.074 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [3ms]

@@ -1,1 +1,2 @@
 2025-06-15 13:27:15.482 [info] Log level: Info
+2025-06-15 13:35:38.857 [warning] [GitHubSourceControlHistoryItemDetailsProvider][_getCommitAuthor] Failed to get commit author for samedberkanUNVER/student_02_7b3398a78669/a672dbf3788360c14bdca304f6d55813528a1a69: TypeError: Cannot read properties of null (reading 'author')
