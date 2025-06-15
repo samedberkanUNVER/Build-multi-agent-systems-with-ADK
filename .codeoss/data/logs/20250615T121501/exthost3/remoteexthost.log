@@ -1,0 +1,21 @@
+2025-06-15 13:27:05.194 [info] Extension host with pid 3874 started
+2025-06-15 13:27:05.194 [error] Error: EEXIST: file already exists, open '/home/student_02_7b3398a78669/.codeoss/data/User/workspaceStorage/1de1cc53/vscode.lock'
+2025-06-15 13:27:05.195 [info] Lock '/home/student_02_7b3398a78669/.codeoss/data/User/workspaceStorage/1de1cc53/vscode.lock': Could not acquire lock, checking if the file is stale.
+2025-06-15 13:27:05.209 [info] Lock '/home/student_02_7b3398a78669/.codeoss/data/User/workspaceStorage/1de1cc53/vscode.lock': The lock does not look stale, elapsed: 946 ms, giving up.
+2025-06-15 13:27:05.223 [info] Lock '/home/student_02_7b3398a78669/.codeoss/data/User/workspaceStorage/1de1cc53-1/vscode.lock': Lock acquired.
+2025-06-15 13:27:05.445 [info] Eager extensions activated
+2025-06-15 13:27:06.228 [info] Extension host with pid 3897 started
+2025-06-15 13:27:06.228 [error] Error: EEXIST: file already exists, open '/home/student_02_7b3398a78669/.codeoss/data/User/workspaceStorage/1de1cc53/vscode.lock'
+2025-06-15 13:27:06.229 [info] Lock '/home/student_02_7b3398a78669/.codeoss/data/User/workspaceStorage/1de1cc53/vscode.lock': Could not acquire lock, checking if the file is stale.
+2025-06-15 13:27:06.230 [info] Lock '/home/student_02_7b3398a78669/.codeoss/data/User/workspaceStorage/1de1cc53/vscode.lock': The lock does not look stale, elapsed: 967 ms, giving up.
+2025-06-15 13:27:06.231 [error] Error: EEXIST: file already exists, open '/home/student_02_7b3398a78669/.codeoss/data/User/workspaceStorage/1de1cc53-1/vscode.lock'
+2025-06-15 13:27:06.231 [info] Lock '/home/student_02_7b3398a78669/.codeoss/data/User/workspaceStorage/1de1cc53-1/vscode.lock': Could not acquire lock, checking if the file is stale.
+2025-06-15 13:27:06.240 [info] Lock '/home/student_02_7b3398a78669/.codeoss/data/User/workspaceStorage/1de1cc53-1/vscode.lock': The lock does not look stale, elapsed: 15 ms, giving up.
+2025-06-15 13:27:06.253 [info] Lock '/home/student_02_7b3398a78669/.codeoss/data/User/workspaceStorage/1de1cc53-2/vscode.lock': Lock acquired.
+2025-06-15 13:27:06.388 [info] Eager extensions activated
+2025-06-15 13:32:08.188 [info] Extension host terminating: renderer disconnected for too long (2)
+2025-06-15 13:32:08.189 [info] Lock '/home/student_02_7b3398a78669/.codeoss/data/User/workspaceStorage/1de1cc53-1/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+2025-06-15 13:32:08.190 [info] Extension host with pid 3874 exiting with code 0
+2025-06-15 13:32:08.239 [info] Extension host terminating: renderer disconnected for too long (2)
+2025-06-15 13:32:08.240 [info] Lock '/home/student_02_7b3398a78669/.codeoss/data/User/workspaceStorage/1de1cc53-2/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+2025-06-15 13:32:08.241 [info] Extension host with pid 3897 exiting with code 0

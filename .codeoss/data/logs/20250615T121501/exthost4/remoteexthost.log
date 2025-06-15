@@ -1,0 +1,29 @@
+2025-06-15 13:27:11.401 [info] Extension host with pid 3922 started
+2025-06-15 13:27:11.401 [error] Error: EEXIST: file already exists, open '/home/student_02_7b3398a78669/.codeoss/data/User/workspaceStorage/1de1cc53/vscode.lock'
+2025-06-15 13:27:11.418 [info] Lock '/home/student_02_7b3398a78669/.codeoss/data/User/workspaceStorage/1de1cc53/vscode.lock': Could not acquire lock, checking if the file is stale.
+2025-06-15 13:27:11.432 [info] Lock '/home/student_02_7b3398a78669/.codeoss/data/User/workspaceStorage/1de1cc53/vscode.lock': The lock does not look stale, elapsed: 157 ms, giving up.
+2025-06-15 13:27:11.455 [error] Error: EEXIST: file already exists, open '/home/student_02_7b3398a78669/.codeoss/data/User/workspaceStorage/1de1cc53-1/vscode.lock'
+2025-06-15 13:27:11.463 [info] Lock '/home/student_02_7b3398a78669/.codeoss/data/User/workspaceStorage/1de1cc53-1/vscode.lock': Could not acquire lock, checking if the file is stale.
+2025-06-15 13:27:11.464 [info] Lock '/home/student_02_7b3398a78669/.codeoss/data/User/workspaceStorage/1de1cc53-1/vscode.lock': The lock does not look stale, elapsed: 235 ms, giving up.
+2025-06-15 13:27:11.467 [error] Error: EEXIST: file already exists, open '/home/student_02_7b3398a78669/.codeoss/data/User/workspaceStorage/1de1cc53-2/vscode.lock'
+2025-06-15 13:27:11.468 [info] Lock '/home/student_02_7b3398a78669/.codeoss/data/User/workspaceStorage/1de1cc53-2/vscode.lock': Could not acquire lock, checking if the file is stale.
+2025-06-15 13:27:11.471 [info] Lock '/home/student_02_7b3398a78669/.codeoss/data/User/workspaceStorage/1de1cc53-2/vscode.lock': The lock does not look stale, elapsed: 213 ms, giving up.
+2025-06-15 13:27:11.486 [info] Lock '/home/student_02_7b3398a78669/.codeoss/data/User/workspaceStorage/1de1cc53-3/vscode.lock': Lock acquired.
+2025-06-15 13:27:11.599 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-06-15 13:27:11.602 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:markdown'
+2025-06-15 13:27:11.604 [info] ExtensionService#_doActivateExtension vscode.markdown-language-features, startup: false, activationEvent: 'onLanguage:markdown'
+2025-06-15 13:27:12.608 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-06-15 13:27:12.745 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2025-06-15 13:27:12.746 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-06-15 13:27:13.037 [info] ExtensionService#_doActivateExtension vscode.markdown-math, startup: false, activationEvent: 'api', root cause: vscode.markdown-language-features
+2025-06-15 13:27:13.158 [info] Eager extensions activated
+2025-06-15 13:27:13.159 [info] ExtensionService#_doActivateExtension EditorConfig.EditorConfig, startup: false, activationEvent: 'onStartupFinished'
+2025-06-15 13:27:13.160 [info] ExtensionService#_doActivateExtension google.cloud-shell, startup: false, activationEvent: 'onStartupFinished'
+2025-06-15 13:27:13.160 [info] ExtensionService#_doActivateExtension google.geminicodeassist, startup: false, activationEvent: 'onStartupFinished', root cause: googlecloudtools.cloudcode
+2025-06-15 13:27:13.161 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-06-15 13:27:13.162 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-06-15 13:27:15.557 [info] ExtensionService#_doActivateExtension googlecloudtools.cloudcode, startup: false, activationEvent: 'onStartupFinished'
+2025-06-15 13:27:18.361 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-06-15 13:27:18.364 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-06-15 13:27:18.365 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-06-15 13:27:28.346 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
