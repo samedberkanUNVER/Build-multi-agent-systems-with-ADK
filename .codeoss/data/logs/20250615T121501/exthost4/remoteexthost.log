@@ -27,3 +27,15 @@
 2025-06-15 13:27:18.364 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
 2025-06-15 13:27:18.365 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
 2025-06-15 13:27:28.346 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2025-06-15 13:33:45.931 [error] Error: Failed to execute git
+    at t.Git._exec (/google/devshell/editor/code-oss-for-cloud-shell/extensions/git/dist/main.js:2:164815)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at t.Git.exec (/google/devshell/editor/code-oss-for-cloud-shell/extensions/git/dist/main.js:2:163934)
+    at z.exec (/google/devshell/editor/code-oss-for-cloud-shell/extensions/git/dist/main.js:2:169608)
+    at z.handleCommitError (/google/devshell/editor/code-oss-for-cloud-shell/extensions/git/dist/main.js:2:178051)
+    at z.commit (/google/devshell/editor/code-oss-for-cloud-shell/extensions/git/dist/main.js:2:177561)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/git/dist/main.js:2:285853
+    at O.retryRun (/google/devshell/editor/code-oss-for-cloud-shell/extensions/git/dist/main.js:2:301510)
+    at O.run (/google/devshell/editor/code-oss-for-cloud-shell/extensions/git/dist/main.js:2:301114)
+    at O.commit (/google/devshell/editor/code-oss-for-cloud-shell/extensions/git/dist/main.js:2:285535)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/github/dist/extension.js:2:30100

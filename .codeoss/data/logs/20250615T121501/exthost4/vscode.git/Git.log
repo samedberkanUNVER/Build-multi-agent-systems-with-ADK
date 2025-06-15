@@ -67,3 +67,97 @@ Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
   "stderr": "fatal: bad revision 'refs/heads/main'\n"
 }
 2025-06-15 13:33:41.656 [info] > git check-ignore -v -z --stdin [11ms]
+2025-06-15 13:33:44.831 [info] > git add -A -- . [4341ms]
+2025-06-15 13:33:44.866 [info] > git -c user.useConfigOnly=true commit --quiet --allow-empty-message --file - --allow-empty-message [27ms]
+2025-06-15 13:33:44.866 [info] Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: no email was given and auto-detection is disabled
+2025-06-15 13:33:44.875 [info] > git config --get-all user.name [2ms]
+2025-06-15 13:33:44.891 [info] [Git][getRemotes] No remotes found in the git config file
+2025-06-15 13:33:44.892 [info] > git config --get commit.template [9ms]
+2025-06-15 13:33:44.893 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2025-06-15 13:33:44.894 [warning] [Git][getBranch] No such branch: main
+2025-06-15 13:33:44.919 [info] > git status -z -uall [18ms]
+2025-06-15 13:33:44.922 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [5ms]
+2025-06-15 13:33:45.672 [info] > git show --textconv :adk_multiagent_systems/movie_pitches/The Mapmaker's Heresy [26ms]
+2025-06-15 13:33:45.672 [info] > git show --textconv HEAD:adk_multiagent_systems/movie_pitches/The Mapmaker's Heresy [18ms]
+2025-06-15 13:33:45.672 [info] > git ls-files --stage -- adk_multiagent_systems/movie_pitches/The Mapmaker's Heresy [10ms]
+2025-06-15 13:33:45.691 [info] > git cat-file -s e7bb3a9beda63c228c6914a2fe6b76d44d778ada [12ms]
+2025-06-15 13:33:45.692 [info] > git ls-tree -l HEAD -- adk_multiagent_systems/movie_pitches/The Mapmaker's Heresy [22ms]
+2025-06-15 13:33:45.692 [info] fatal: Not a valid object name HEAD
+2025-06-15 13:33:45.700 [info] > git hash-object -t tree /dev/null [12ms]
+2025-06-15 13:33:45.700 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/student_02_7b3398a78669/adk_multiagent_systems/movie_pitches/The%20Mapmaker%27s%20Heresy.git?%7B%22path%22%3A%22%2Fhome%2Fstudent_02_7b3398a78669%2Fadk_multiagent_systems%2Fmovie_pitches%2FThe%20Mapmaker%27s%20Heresy%22%2C%22ref%22%3A%22HEAD%22%7D
+2025-06-15 13:33:45.702 [info] > git hash-object -t tree /dev/null [3ms]
+2025-06-15 13:33:45.702 [warning] [GitFileSystemProvider][stat] File not found - git:/home/student_02_7b3398a78669/adk_multiagent_systems/movie_pitches/The%20Mapmaker%27s%20Heresy.git?%7B%22path%22%3A%22%2Fhome%2Fstudent_02_7b3398a78669%2Fadk_multiagent_systems%2Fmovie_pitches%2FThe%20Mapmaker%27s%20Heresy%22%2C%22ref%22%3A%22HEAD%22%7D
+2025-06-15 13:33:46.385 [info] > git ls-files --stage -- adk_multiagent_systems/movie_pitches/The Mapmaker's Heresy [2ms]
+2025-06-15 13:33:46.395 [info] > git cat-file -s e7bb3a9beda63c228c6914a2fe6b76d44d778ada [3ms]
+2025-06-15 13:33:46.504 [info] > git show --textconv :adk_multiagent_systems/movie_pitches/The Mapmaker's Heresy [3ms]
+2025-06-15 13:33:53.724 [info] > git -c user.useConfigOnly=true commit --quiet --allow-empty-message --file - [5ms]
+2025-06-15 13:33:53.724 [info] Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: no email was given and auto-detection is disabled
+2025-06-15 13:33:53.733 [info] > git config --get-all user.name [1ms]
+2025-06-15 13:33:53.748 [info] [Git][getRemotes] No remotes found in the git config file
+2025-06-15 13:33:53.749 [info] > git config --get commit.template [9ms]
+2025-06-15 13:33:53.750 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2025-06-15 13:33:53.750 [warning] [Git][getBranch] No such branch: main
+2025-06-15 13:33:53.768 [info] > git status -z -uall [11ms]
+2025-06-15 13:33:53.770 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [5ms]
+2025-06-15 13:33:55.147 [info] > git ls-files --stage -- adk_multiagent_systems/movie_pitches/The Mapmaker's Heresy [3ms]
+2025-06-15 13:33:55.156 [info] > git cat-file -s e7bb3a9beda63c228c6914a2fe6b76d44d778ada [2ms]
+2025-06-15 13:33:55.265 [info] > git show --textconv :adk_multiagent_systems/movie_pitches/The Mapmaker's Heresy [3ms]
+2025-06-15 13:34:42.836 [info] > git -c user.useConfigOnly=true commit --quiet --allow-empty-message --file - [37ms]
+2025-06-15 13:34:42.848 [info] > git config --get commit.template [2ms]
+2025-06-15 13:34:42.865 [info] > git config --get commit.template [4ms]
+2025-06-15 13:34:42.879 [info] [Git][getRemotes] No remotes found in the git config file
+2025-06-15 13:34:42.883 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [5ms]
+2025-06-15 13:34:42.929 [info] > git status -z -uall [31ms]
+2025-06-15 13:34:42.931 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [8ms]
+2025-06-15 13:34:43.827 [info] > git check-ignore -v -z --stdin [6ms]
+2025-06-15 13:34:44.221 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z --shortstat --diff-merges=first-parent -n50 --skip=0 --topo-order --decorate=full --stdin [966ms]
+2025-06-15 13:34:44.346 [info] > git ls-files --stage -- adk_multiagent_systems/movie_pitches/The Mapmaker's Heresy [3ms]
+2025-06-15 13:34:44.356 [info] > git cat-file -s e7bb3a9beda63c228c6914a2fe6b76d44d778ada [3ms]
+2025-06-15 13:34:44.453 [info] > git show --textconv :adk_multiagent_systems/movie_pitches/The Mapmaker's Heresy [3ms]
+2025-06-15 13:35:08.628 [info] > git check-ignore -v -z --stdin [5ms]
+2025-06-15 13:35:25.412 [info] > git remote add test https://github.com/samedberkanUNVER/student_02_7b3398a78669.git [6ms]
+2025-06-15 13:35:25.433 [info] > git config --get commit.template [11ms]
+2025-06-15 13:35:25.435 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2025-06-15 13:35:25.459 [info] > git status -z -uall [13ms]
+2025-06-15 13:35:25.462 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [5ms]
+2025-06-15 13:35:26.215 [info] > git check-ignore -v -z --stdin [4ms]
+2025-06-15 13:35:26.584 [info] > git fetch test [1105ms]
+2025-06-15 13:35:26.599 [info] > git config --get commit.template [4ms]
+2025-06-15 13:35:26.611 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2025-06-15 13:35:26.634 [info] > git status -z -uall [14ms]
+2025-06-15 13:35:26.636 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [3ms]
+2025-06-15 13:35:26.773 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2025-06-15 13:35:26.774 [info] > git config --get commit.template [16ms]
+2025-06-15 13:35:26.797 [info] > git status -z -uall [14ms]
+2025-06-15 13:35:26.799 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [4ms]
+2025-06-15 13:35:26.834 [info] > git config --get commit.template [13ms]
+2025-06-15 13:35:26.836 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [6ms]
+2025-06-15 13:35:26.860 [info] > git status -z -uall [14ms]
+2025-06-15 13:35:26.863 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [4ms]
+2025-06-15 13:35:26.929 [info] > git ls-files --stage -- adk_multiagent_systems/movie_pitches/The Mapmaker's Heresy [3ms]
+2025-06-15 13:35:26.942 [info] > git cat-file -s e7bb3a9beda63c228c6914a2fe6b76d44d778ada [4ms]
+2025-06-15 13:35:27.061 [info] > git show --textconv :adk_multiagent_systems/movie_pitches/The Mapmaker's Heresy [6ms]

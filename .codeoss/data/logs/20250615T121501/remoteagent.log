@@ -109,3 +109,15 @@
 2025-06-15 13:27:09.779 [warning] RequestStore#acceptReply was called without receiving a matching request 108
 2025-06-15 13:32:08.200 [info] [127.0.0.1][f62667dd][ExtensionHostConnection] <3874> Extension Host Process exited with code: 0, signal: null.
 2025-06-15 13:32:08.249 [info] [127.0.0.1][865616c1][ExtensionHostConnection] <3897> Extension Host Process exited with code: 0, signal: null.
+2025-06-15 13:34:47.305 [warning] RequestStore#acceptReply was called without receiving a matching request 109
+2025-06-15 13:34:47.306 [warning] RequestStore#acceptReply was called without receiving a matching request 110
+2025-06-15 13:34:47.306 [warning] RequestStore#acceptReply was called without receiving a matching request 111
+2025-06-15 13:34:47.306 [warning] RequestStore#acceptReply was called without receiving a matching request 112
+2025-06-15 13:34:47.306 [warning] RequestStore#acceptReply was called without receiving a matching request 113
+2025-06-15 13:34:47.306 [warning] RequestStore#acceptReply was called without receiving a matching request 114
+2025-06-15 13:34:47.306 [warning] RequestStore#acceptReply was called without receiving a matching request 115
+2025-06-15 13:34:47.306 [warning] RequestStore#acceptReply was called without receiving a matching request 116
+2025-06-15 13:34:47.307 [warning] RequestStore#acceptReply was called without receiving a matching request 117
+2025-06-15 13:34:47.307 [warning] RequestStore#acceptReply was called without receiving a matching request 118
+2025-06-15 13:34:47.307 [warning] RequestStore#acceptReply was called without receiving a matching request 119
+2025-06-15 13:34:47.307 [warning] RequestStore#acceptReply was called without receiving a matching request 120
